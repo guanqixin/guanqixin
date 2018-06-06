@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="header-bg">
+        <p></p>
+        <h3>多佳网</h3>
+        <p></p>
+    </div>
+    <div class="search">
+        <i><img src="img/1.png" alt=""></i>
+        <div><span><img src="img/3.png" alt=""></span><input type="text" placeholder="搜索项目或医院"></div>
+        <p>分类<span></span></p>
+    </div>
+    <div class="content">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="img/2.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/2.png" alt=""></div>
+                <div class="swiper-slide"><img src="img/2.png" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="list">
+            <dl>
+                <dt><img src="img/list1.png" alt=""></dt>
+                <dd>收益滚利</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/list2.png" alt=""></dt>
+                <dd>阶梯奖励</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/list3.png" alt=""></dt>
+                <dd>收益滚利</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/list4.png" alt=""></dt>
+                <dd>收益滚利</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/list5.png" alt=""></dt>
+                <dd>收益滚利</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/list6.png" alt=""></dt>
+                <dd>阶梯奖励</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/list1.png" alt=""></dt>
+                <dd>收益滚利</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/list8.png" alt=""></dt>
+                <dd>阶梯奖励</dd>
+            </dl>
+        </div>
+        <div class="row">
+            <div>
+                <img src="img/line.png" alt="">
+                <h3>金牌商家</h3>
+            </div>
+            <div class="box">
+                <div>
+                    <p>悦美国际</p><p>美人魅力</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <img src="img/foot1.png" alt="">
+            <span>首页</span>
+        </div>
+        <div>
+            <img src="img/foot.png" alt="">
+            <span>我的</span>
+        </div>
+    </footer>
+    <script src='js/flexible.js'></script>
+    <script src='js/swiper.min.js'></script>
+    <script src='js/bscroll.min.js'></script>
+    <script>
+        new Swiper('.swiper-container',{
+            pagination:{
+                el : '.swiper-pagination'
+            }
+        })
+        new BScroll('.box',{
+            scrollX:true
+        })
+    </script>
+</body>
+</html>
